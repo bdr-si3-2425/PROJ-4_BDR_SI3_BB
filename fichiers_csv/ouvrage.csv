@@ -1,0 +1,68 @@
+id_ouvrage,titre,auteur,genre,date_publication
+0,Harry Potter à l'école des sorciers,J.K.Rowling,Roman,1997-01-01
+1,Harry Potter et la Chambre des secrets,J.K.Rowling,Roman,1998-01-01
+2,Harry Potter et le Prisonnier d'Azkaban,J.K.Rowling,Roman,1999-01-01
+3,Harry Potter et la Coupe de feu,J.K.Rowling,Roman,2000-01-01
+4,Harry Potter et l'Ordre du Phénix,J.K.Rowling,Roman,2003-01-01
+5,Harry Potter et le Prince de sang-mêlé ,J.K.Rowling,Roman,2005-01-01
+6,Harry Potter et les Reliques de la Mort ,J.K.Rowling,Roman,2007-01-01
+7, Hunger Games : L'Embrasement.,Suzanne Collins,Roman,2010-01-01
+8, Hunger Games : La Révolte.,Suzanne Collins,Roman,2011-01-01
+9,Hunger Games : La Ballade du serpent et de l'oiseau chanteur,Suzanne Collins,Roman,2020-01-01
+10,Hunger Games : Lever de soleil sur la moisson,Suzanne Collins,Roman,2025-01-01
+11,Astérix le Gaulois,René Goscinny et Albert Uderzo,BD,1961-01-01
+12,La Serpe d'or,René Goscinny et Albert Uderzo,BD,1962-01-01
+13,Astérix et les Goths,René Goscinny et Albert Uderzo,BD,1963-01-01
+14,Astérix Gladiateur,René Goscinny et Albert Uderzo,BD,1964-01-01
+15,Le Tour de Gaule d'Astérix,René Goscinny et Albert Uderzo,BD,1965-01-01
+16,Astérix et Cléopâtre,René Goscinny et Albert Uderzo,BD,1965-01-01
+17,Le Combat des chefs,René Goscinny et Albert Uderzo,BD,1966-01-01
+18,Astérix chez les Bretons,René Goscinny et Albert Uderzo,BD,1966-01-01
+19,Astérix et les Normands,René Goscinny et Albert Uderzo,BD,1967-01-01
+20,Astérix légionnaire,René Goscinny et Albert Uderzo,BD,1967-01-01
+21,Le Bouclier arverne,René Goscinny et Albert Uderzo,BD,1968-01-01
+22,Astérix aux Jeux Olympiques,René Goscinny et Albert Uderzo,BD,1968-01-01
+23,Astérix et le chaudron,René Goscinny et Albert Uderzo,BD,1969-01-01
+24,Astérix en Hispanie,René Goscinny et Albert Uderzo,BD,1969-01-01
+25,La Zizanie,René Goscinny et Albert Uderzo,BD,1970-01-01
+26,Astérix chez les Helvètes,René Goscinny et Albert Uderzo,BD,1970-01-01
+27,Le Domaine des dieux,René Goscinny et Albert Uderzo,BD,1971-01-01
+28,Les Lauriers de César,René Goscinny et Albert Uderzo,BD,1972-01-01
+29,Le Devin,René Goscinny et Albert Uderzo,BD,1972-01-01
+30,Astérix en Corse,René Goscinny et Albert Uderzo,BD,1973-01-01
+31,Le Cadeau de César,René Goscinny et Albert Uderzo,BD,1974-01-01
+32,La Grande Traversée,René Goscinny et Albert Uderzo,BD,1975-01-01
+33,Obélix et compagnie,René Goscinny et Albert Uderzo,BD,1976-01-01
+34,Astérix chez les Belges,René Goscinny et Albert Uderzo,BD,1979-01-01
+35,L'Odyssée d'Astérix,Albert Uderzo,BD,1981-01-01
+36,Le Fils d'Astérix,Albert Uderzo,BD,1983-01-01
+37,Astérix chez Rahàzade,Albert Uderzo,BD,1987-01-01
+38,La Galère d'Obélix,Albert Uderzo,BD,1996-01-01
+39,Astérix et Latraviata,Albert Uderzo,BD,2001-01-01
+40,Astérix et la rentrée gauloise,René Goscinny et Albert Uderzo,BD,2003-01-01
+41,Le Ciel lui tombe sur la tête,Albert Uderzo,BD,2005-01-01
+42,L'Anniversaire d'Astérix et Obélix - Le Livre d'or,Albert Uderzo,BD,2009-01-01
+43,Astérix chez les Pictes,Jean-Yves Ferri et Didier Conrad,BD,2013-01-01
+44,Le Papyrus de César,Jean-Yves Ferri et Didier Conrad,BD,2015-01-01
+45,Astérix et la Transitalique,Jean-Yves Ferri et Didier Conrad,BD,2017-01-01
+46,La Fille de Vercingétorix,Jean-Yves Ferri et Didier Conrad,BD,2019-01-01
+47,Astérix et le Griffon,Jean-Yves Ferri et Didier Conrad,BD,2021-01-01
+48,1984,George Orwell,Roman,1949-01-01
+49,Le Petit Prince,Antoine de Saint-Exupéry,Roman,1943-01-01
+50,L'Alchimiste,Paulo Coelho,Roman,1988-01-01
+51,Orgueil et Préjugés,Jane Austen,Roman,1813-01-01
+52,Le Seigneur des Anneaux,J.R.R. Tolkien,Roman,1954-01-01
+53,Les Misérables,Victor Hugo,Roman,1862-01-01
+54,Crime et Châtiment,Fiodor Dostoïevski,Roman,1866-01-01
+55,L'Étranger,Albert Camus,Roman,1942-01-01
+56,Don Quichotte,Miguel de Cervantès,Roman,1605-01-01
+57,Le Comte de Monte-Cristo,Alexandre Dumas,Roman,1844-01-01
+58,Moby Dick,Herman Melville,Roman,1851-01-01
+59,La Métamorphose,Franz Kafka,Roman,1915-01-01
+60,Jane Eyre,Charlotte Brontë,Roman,1847-01-01
+61,Les Fleurs du mal,Charles Baudelaire,Poesie,1857-01-01
+62,Le Vieil Homme et la Mer,Ernest Hemingway,Roman,1952-01-01
+63,Fahrenheit 451,Ray Bradbury,Roman,1953-01-01
+64,Bel-Ami,Guy de Maupassant,Roman,1885-01-01
+65,Gatsby le Magnifique,F. Scott Fitzgerald,Roman,1925-01-01
+66,À la recherche du temps perdu,Marcel Proust,Roman,1913-01-01

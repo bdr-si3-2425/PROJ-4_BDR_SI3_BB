@@ -1,0 +1,21 @@
+id_bibliotheque,Nom,region
+0,Bordeaux,Nouvelle-Aquitaine
+1,Dax,Nouvelle-Aquitaine
+2,Pau,Nouvelle-Aquitaine
+3,Gap,PACA
+4,Nice,PACA
+5,Antibes,PACA
+6,Paris,Ile de France
+7,Nantes,Pays de la Loire
+8,Rennes,Bretagne
+9,Nanterre,Ile de France
+10,Versailles,Ile de France
+11,Creteil,Ile de France
+12,Strasbourg,Alsace
+13,Grenoble,Auvergne-Rhône-Alpes
+14,Lyon,Auvergne-Rhône-Alpes
+15,Marseille,PACA
+16,Toulouse,Occitanie
+17,Dijon,Bourgogne-Franche-Comté
+18,Saint-Étienne,Auvergne-Rhône-Alpes
+19,Lille,Hauts-de-France 

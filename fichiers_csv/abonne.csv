@@ -1,0 +1,41 @@
+id_abonne,id_abonnement,nom,prenom,email,Region,date_abonnement
+0,1,Fatima,Martin,'Martin.Fatima@gmail.com',Grand Est,2024-11-22
+1,1,David,Laurent,'Laurent.David@gmail.com',Hauts-de-France,2024-04-15
+2,1,Emma,Simon,'Simon.Emma@gmail.com',Hauts-de-France,2024-04-03
+3,3,Alice,Durand,'Durand.Alice@gmail.com',Pays de la Loire,2024-12-08
+4,3,Fatima,Morel,'Morel.Fatima@gmail.com',Île-de-France,2024-03-20
+5,3,Jules,Dubois,'Dubois.Jules@gmail.com',Centre-Val de Loire,2024-11-09
+6,3,Isabelle,Rousseau,'Rousseau.Isabelle@gmail.com',Hauts-de-France,2024-05-01
+7,3,David,Durand,'Durand.David@gmail.com',PACA,2024-12-09
+8,2,Alice,Durand,'Durand.Alice@gmail.com',Grand Est,2024-08-05
+9,3,Hugo,Bernard,'Bernard.Hugo@gmail.com',Centre-Val de Loire,2024-12-07
+10,3,Bob,Dupont,'Dupont.Bob@gmail.com',Île-de-France,2024-03-15
+11,1,Charlie,Dupont,'Dupont.Charlie@gmail.com',Centre-Val de Loire,2024-10-16
+12,2,Gabriel,Lefebvre,'Lefebvre.Gabriel@gmail.com',Pays de la Loire,2024-02-25
+13,1,Isabelle,Rousseau,'Rousseau.Isabelle@gmail.com',Bretagne,2024-02-09
+14,2,Alice,Bernard,'Bernard.Alice@gmail.com',Occitanie,2024-07-06
+15,3,David,Dupont,'Dupont.David@gmail.com',Auvergne-Rhône-Alpes,2024-09-07
+16,3,Jules,Morel,'Morel.Jules@gmail.com',Pays de la Loire,2024-07-15
+17,3,Charlie,Morel,'Morel.Charlie@gmail.com',Centre-Val de Loire,2024-08-08
+18,3,Emma,Simon,'Simon.Emma@gmail.com',Centre-Val de Loire,2024-02-04
+19,1,Hugo,Lefebvre,'Lefebvre.Hugo@gmail.com',Centre-Val de Loire,2024-05-28
+20,3,Hugo,Dubois,'Dubois.Hugo@gmail.com',PACA,2024-11-08
+21,2,Gabriel,Bernard,'Bernard.Gabriel@gmail.com',Bourgogne-Franche-Comté,2024-01-25
+22,2,Alice,Simon,'Simon.Alice@gmail.com',Centre-Val de Loire,2024-07-25
+23,3,Alice,Laurent,'Laurent.Alice@gmail.com',Bretagne,2024-10-13
+24,1,David,Durand,'Durand.David@gmail.com',Centre-Val de Loire,2024-05-14
+25,2,David,Rousseau,'Rousseau.David@gmail.com',PACA,2024-01-06
+26,2,Gabriel,Lefebvre,'Lefebvre.Gabriel@gmail.com',Bretagne,2024-11-02
+27,1,Fatima,Rousseau,'Rousseau.Fatima@gmail.com',Occitanie,2024-01-23
+28,3,Alice,Laurent,'Laurent.Alice@gmail.com',Grand Est,2024-10-24
+29,1,David,Dubois,'Dubois.David@gmail.com',Centre-Val de Loire,2024-04-12
+30,1,Hugo,Dupont,'Dupont.Hugo@gmail.com',Auvergne-Rhône-Alpes,2024-07-01
+31,3,Bob,Durand,'Durand.Bob@gmail.com',Grand Est,2024-11-20
+32,1,Alice,Martin,'Martin.Alice@gmail.com',Occitanie,2024-08-14
+33,2,Jules,Dupont,'Dupont.Jules@gmail.com',Occitanie,2024-05-08
+34,1,Jules,Rousseau,'Rousseau.Jules@gmail.com',Bourgogne-Franche-Comté,2024-10-10
+35,2,Isabelle,Dubois,'Dubois.Isabelle@gmail.com',Île-de-France,2024-09-06
+36,1,Charlie,Lefebvre,'Lefebvre.Charlie@gmail.com',Auvergne-Rhône-Alpes,2024-02-27
+37,1,Gabriel,Lefebvre,'Lefebvre.Gabriel@gmail.com',Auvergne-Rhône-Alpes,2024-06-12
+38,1,Bob,Durand,'Durand.Bob@gmail.com',Pays de la Loire,2024-10-03
+39,1,Emma,Martin,'Martin.Emma@gmail.com',PACA,2024-11-22
