@@ -4,7 +4,7 @@ CREATE OR REPLACE FUNCTION ajouter_bibliotheque(
 	p_region VARCHAR(255))
 RETURNS VOID AS $$
 BEGIN
-    INSERT INTO Bibliotheque (nom, adresse, region) 
-	VALUES (p_nom, p_adresse, p_region);
+    INSERT INTO Bibliotheque (id_bibliotheque,nom, adresse, region) 
+	VALUES (Select max(id_bibliotheque) from biblioteque,p_nom, p_adresse, p_region);
 END;
 $$ LANGUAGE plpgsql;
