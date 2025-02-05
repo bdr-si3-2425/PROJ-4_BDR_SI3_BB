@@ -1,7 +1,7 @@
 -- Table des bibliothèques
 CREATE TABLE Bibliotheque (
     id_bibliotheque INT PRIMARY KEY,
-    nom VARCHAR(255) NOT NULL,
+    nom VARCHAR(255) NOT NULL, --le nom est celui d'une ville
     region VARCHAR(255) NOT NULL
 );
 
@@ -23,11 +23,12 @@ CREATE TABLE Exemplaire (
     statut VARCHAR(255) NOT NULL -- 'disponible', 'emprunté', 'réservé'.
 );
 
--- Table des abonnements
+-- Table des abonnements 
+-- Il y a 3 enregistrements dans Abonnement
 CREATE TABLE Abonnement (
 	id_abonnement INT PRIMARY KEY,
-	prix_annuel INT NOT NULL,
-	description TEXT NOT NULL
+	prix_annuel INT NOT NULL, --en euros
+	description TEXT NOT NULL --nombre de livres mensuels
 );
 
 -- Table des abonnés
@@ -58,7 +59,7 @@ CREATE TABLE Reservation (
     id_exemplaire INT REFERENCES Exemplaire(id_exemplaire) ON DELETE CASCADE, 
 	id_bibliotheque_destination INT REFERENCES Bibliotheque(id_bibliotheque) ON DELETE CASCADE,
 	date_reservation DATE NOT NULL,           
-    statut VARCHAR(20) DEFAULT 'En attente'   -- Statut : "En attente", "Annulée", "Terminée"
+    statut VARCHAR(20) DEFAULT 'En attente'   -- Statut : "En attente", "Disponible", "Terminée"
 );
 
 -- Table des distances 
@@ -66,7 +67,7 @@ CREATE TABLE Distance (
 	id_distance INT PRIMARY KEY,
 	id_bibliotheque_source INT REFERENCES Bibliotheque(id_bibliotheque) ON DELETE CASCADE,
 	id_bibliotheque_destination INT REFERENCES Bibliotheque(id_bibliotheque) ON DELETE CASCADE,
-	distance INT NOT NULL
+	distance INT NOT NULL --en kilomètre
 );
 
 -- Table des transferts
@@ -76,16 +77,16 @@ CREATE TABLE Transfert (
     id_distance INT REFERENCES Distance(id_distance) ON DELETE CASCADE,
 	date_demande DATE NOT NULL,
 	date_reception DATE,
-	cout_transfert INT NOT NULL
+	cout_transfert INT NOT NULL --cout_transfert = distance (en km) * coeff_cout(=1) en centimes
 );
 
 -- Table des événements
 CREATE TABLE Evenement (
     id_evenement INT PRIMARY KEY,
     id_bibliotheque INT REFERENCES Bibliotheque(id_bibliotheque) ON DELETE CASCADE,
-    nom_evenement VARCHAR(255) NOT NULL,
+    nom_evenement VARCHAR(255) NOT NULL, 
     date_evenement DATE NOT NULL,
-    description TEXT
+    description TEXT --ouvert au public ou réservé aux abonnés, et thème de l'événement
 );
 
 -- Table des participations
