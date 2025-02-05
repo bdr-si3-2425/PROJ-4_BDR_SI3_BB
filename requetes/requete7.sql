@@ -1,10 +1,11 @@
-CREATE OR REPLACE FUNCTION ajouter_bibliotheque(
-	p_nom VARCHAR(255), 
-	p_adresse VARCHAR(255), 
-	p_region VARCHAR(255))
+CREATE OR REPLACE FUNCTION ajouter_distance(
+	p_id_bibliotheque1 INT,
+	p_id_bibliotheque2 INT,
+	p_distance INT)
 RETURNS VOID AS $$
 BEGIN
-    INSERT INTO Bibliotheque (nom, adresse, region) 
-	VALUES (p_nom, p_adresse, p_region);
+    INSERT INTO distance (id_distance,id_bibliotheque_source,id_bibliotheque_destination,distance) 
+	VALUES ((Select Max(id_distance)+1 from distance),p_id_bibliotheque1,p_id_bibliotheque2,p_distance);
 END;
 $$ LANGUAGE plpgsql;
+Select ajouter_distance(0,19,500)  
