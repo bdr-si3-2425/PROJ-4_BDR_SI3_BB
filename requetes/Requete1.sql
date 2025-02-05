@@ -1,10 +1,12 @@
-SET var.evt = 'test 2';
+/*
+	Affiche les livres disponibles dans une bibliothèque 
+	à partir de son nom (qui est une ville).
+*/
+SET var.nom_bibliotheque = 'Paris';
 
--- 	Affiche les abonnés qui participent à un évènement evt particulier
+SELECT o.titre, o.auteur, e.emplacement
+FROM Bibliotheque AS b
+JOIN Exemplaire AS e USING(id_bibliotheque)
+JOIN Ouvrage AS o USING(id_ouvrage)
+WHERE b.nom = CURRENT_SETTING('var.nom_bibliotheque') AND e.statut = 'Disponible' ;
 
-SELECT a.id_abonne, a.nom, a.prenom, e.nom_evenement, e.id_evenement
-FROM participationsevenement as pE
-JOIN abonne AS a ON pE.id_abonne = a.id_abonne
-JOIN evenement AS e ON e.id_evenement = pE.id_evenement 
-WHERE e.nom_evenement = CURRENT_SETTING('var.evt')
-ORDER BY a.id_abonne;
