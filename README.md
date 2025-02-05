@@ -24,22 +24,22 @@ Le but de ce projet est de créer une base de données permettant de centraliser
 - Un événement peut être soit ouvert au public, soit réservé aux abonnés.
 
 ## Services Rendus par la Base de Données
-1. Afficher tous les ouvrages ayant un exemplaire disponible dans une bibliothèque.
-2. Afficher tous les ouvrages ayant un exemplaire disponible dans toutes les bibliothèques, triés par id_bibliotheque.
-3. Afficher tous les prêts d'un abonné (terminés, en cours, en retard).
-4. Ajouter un ouvrage.
-5. Ajouter un exemplaire à une bibliothèque.
-6. Ajouter une bibliothèque.
-7. Ajouter une distance entre bibliothèques.
-8. Ajouter une réservation.
-9. Ajouter un transfert.
-10. Ajouter la date de réception d'un transfert.
-11. Afficher les événements de chaque bibliothèque.
-12. Afficher les abonnés ayant participé à des événements similaires (ex. : abonnés ayant participé à des événements sur le thème "jeu").
-13. Afficher les abonnés participant à un événement en particulier.
-14. Afficher les ouvrages fréquemment transférés entre bibliothèques avec leurs délais associés, triés par ordre décroissant.
-15. Afficher les abonnés ne respectant pas les délais de prêt et leur fréquence d'infraction.
-16. Afficher les ouvrages populaires (du plus populaire au moins populaire) selon les abonnés d'une région.
-17. Afficher les coûts totaux de transfert entre chaque bibliothèque.
-18. Afficher le nombre de prêts d'un abonne, son nom et prénom, à partir de son id_abonne.
-19. Afficher tous les prêts de tous les abonnés triés selon l'id_abonne.
+1. Afficher tous les ouvrages ayant un exemplaire disponible dans une bibliothèque. [Enzo]
+2. Afficher tous les ouvrages ayant un exemplaire disponible dans toutes les bibliothèques, triés par id_bibliotheque. [Enzo]
+3. Afficher tous les prêts d'un abonné (terminés, en cours, en retard). [Enzo]
+4. Ajouter un ouvrage. [Luc, Enzo]
+5. Ajouter un exemplaire à une bibliothèque. [Luc, Enzo]
+6. Ajouter une bibliothèque. [Luc, Enzo]
+7. Ajouter une distance entre bibliothèques. [Luc, Enzo]
+8. Ajouter une réservation. [Enzo]
+9. Ajouter un transfert. [Enzo]
+10. Ajouter la date de réception d'un transfert. [Enzo]
+11. Afficher les événements de chaque bibliothèque. [Enzo]
+12. Afficher les abonnés ayant participé à des événements similaires (ex. : abonnés ayant participé à des événements sur le thème "jeu"). [Adrien]
+13. Afficher les abonnés participant à un événement en particulier. [Adrien]
+14. Afficher les ouvrages fréquemment transférés entre bibliothèques avec leurs délais associés, triés par ordre décroissant. [Adrien]
+15. Afficher les abonnés ne respectant pas les délais de prêt et leur fréquence d'infraction. [Adrien]
+16. Afficher les ouvrages populaires (du plus populaire au moins populaire) selon les abonnés d'une région. [Luc]
+17. Afficher les coûts totaux de transfert entre chaque bibliothèque. [Adrien]
+18. Afficher le nombre de prêts d'un abonne, son nom et prénom, à partir de son id_abonne. [Enzo]
+19. Afficher tous les prêts de tous les abonnés triés selon l'id_abonne. [Enzo]
