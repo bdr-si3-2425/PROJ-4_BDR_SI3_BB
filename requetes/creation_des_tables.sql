@@ -34,11 +34,11 @@ CREATE TABLE Abonnement (
 CREATE TABLE Abonne (
     id_abonne SERIAL PRIMARY KEY,
 	id_abonnement INT REFERENCES Abonnement(id_abonnement),
-    date_abonnement DATE NOT NULL,
 	nom VARCHAR(255) NOT NULL,
 	prenom VARCHAR(255),
     email TEXT NOT NULL,
-    region VARCHAR(255) NOT NULL
+    region VARCHAR(255) NOT NULL,
+	date_abonnement DATE
 );
 
 -- Table des prêts
@@ -58,7 +58,7 @@ CREATE TABLE Reservation (
     id_exemplaire INT REFERENCES Exemplaire(id_exemplaire) ON DELETE CASCADE, 
 	id_bibliotheque_destination INT REFERENCES Bibliotheque(id_bibliotheque) ON DELETE CASCADE,
 	date_reservation DATE NOT NULL,           
-    statut VARCHAR(20) DEFAULT 'En attente',   -- Statut : "En attente", "Annulée", "Terminée"            
+    statut VARCHAR(20) DEFAULT 'En attente'   -- Statut : "En attente", "Annulée", "Terminée"
 );
 
 -- Table des distances 
@@ -83,7 +83,7 @@ CREATE TABLE Transfert (
 CREATE TABLE Evenement (
     id_evenement SERIAL PRIMARY KEY,
     id_bibliotheque INT REFERENCES Bibliotheque(id_bibliotheque) ON DELETE CASCADE,
-    nom VARCHAR(255) NOT NULL,
+    nom_evenement VARCHAR(255) NOT NULL,
     date_evenement DATE NOT NULL,
     description TEXT
 );
